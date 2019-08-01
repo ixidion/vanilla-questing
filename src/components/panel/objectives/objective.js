@@ -73,14 +73,14 @@ function Objective({ index, quests, waypoint }) {
 // DEFAULT BLOCK
 function Single(props) { return (
    <div>
-      <a href={ 'https://classicdb.ch/?quest=' + fetch_id(props) } target='_blank' rel='noopener noreferrer'>{ shorten(props.header) }</a>
+      <a href={ 'https://classic.wowhead.com/quest=' + fetch_id(props) } target='_blank' rel='noopener noreferrer'>{ shorten(props.header) }</a>
    </div>
 )}
 
 // MULTI HEADER BLOCK
 function Multi(props) { return (
    <div className="split">
-      <div><a href={ 'https://classicdb.ch/?quest=' + fetch_id(props) } target='_blank' rel='noopener noreferrer'>{ shorten(props.header) }</a></div>
+      <div><a href={ 'https://classic.wowhead.com/quest=' + fetch_id(props) } target='_blank' rel='noopener noreferrer'>{ shorten(props.header) }</a></div>
       <div>{ props.tag }</div>
    </div>
 )}

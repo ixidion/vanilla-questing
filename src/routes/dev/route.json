@@ -34,7 +34,7 @@
                "align": "bottom",
                "header": "Human Players",
                "special": [
-                  ["Human Players should get the Quest Killing Fields in Westfall to share it later. Loc 56, 31", "https://classicdb.ch/?quest=9"]
+                  ["Human Players should get the Quest Killing Fields in Westfall to share it later. Loc 56, 31", "https://classic.wowhead.com/quest=9"]
             ],
                "type": "quest"
             },
@@ -1348,7 +1348,9 @@
                "coords": { "x": 55, "y": 12 },
                "align": "top",
                "header": "shoni the silent",
+               "starts": [["gyrodrillmatic excavationators", "d"]],
                "ends": [["underground assault", "d"]],
+               "special": ["Obtain Gnomereganquest for later"],
                "type": "quest"
             },
             {
@@ -1468,7 +1470,7 @@
                "header": "darkshire",
                "completed": [["look to the stars", "p1"]],
                "ends": ["crime and punishment"],
-               "starts": [["the night watch", "p1"], ["worgen in the woods", "p1"], ["Look To The Stars", "p2"]],
+               "starts": [["the night watch", "p1"], ["worgen in the woods", "p1"], ["look to the stars", "p2"]],
                "type": "hub"
             },
             {
@@ -1552,6 +1554,483 @@
                "type": "hub"
             }
 
+         ]
+      },
+      {
+         "zone": "ironforge",
+         "experience": 28.85,
+         "waypoints": [
+            {
+               "coords": { "x": 19, "y": 51 },
+               "header": "ironforge inn",
+               "special": ["set hearthstone", "Train, Clear Bags, Repp."],
+               "type": "objective"
+            },
+            {
+               "coords": { "x": 68, "y": 48 },
+               "align": "top",
+               "header": "ironforge tinkertown",
+               "starts": [["save techbots brain", "d"], ["the grand betrayal", "d"], ["data rescue", "d"], ["essential artificials", "d"], ["gyrodrillmatic excavationators", "d"]],
+               "type": "hub"
+            }
+ 
+         ]
+      },
+      {
+         "zone": "morogh",
+         "experience": 28.9,
+         "waypoints": [
+            {
+               "coords": { "x": 53, "y": 35 },
+               "align": "top",
+               "header": "gates of ironforge",
+               "special": ["Wait for all above before running down to Gnomeregan. Splitting up when running down only costs time for all."],
+               "type": "travel"
+            },
+            {
+               "coords": { "x": 26, "y": 43 },
+               "align": "bottom",
+               "header": "gnomeregan entrance (before instance)",
+               "objectives": [["save techbots brain", "d"], ["data rescue", "d"]],
+               "special": ["Again. Wait for all!", "All obtain a white punch card from the entrance mobs.", "Obtain Yellow Punchard", "Grind here till all are at least Level 29.", "After turning in all Gnomereganquests all should be 30."],
+               "type": "objective"
+            },
+            {
+               "coords": { "x": 26, "y": 41 },
+               "align": "top",
+               "header": "gnomeregan (inside instance)",
+               "completed": [["the sparklematic 5200", "d"], ["grime encrusted ring", "d"]],
+               "starts": ["return of the ring"],
+               "objectives": [["the grand betrayal", "d"], ["data rescue", "d"], ["essential artificials", "d"], ["gyrodrillmatic excavationators", "d"]],
+               "special": [
+                  "No Jumprun, you need to obtain collectables for all within ONE run.", 
+                  "Punch Card order: Yellow -> Blue (Clean Room) -> Red (Electrocutioner 6000) -> Prismatic (Pummeler)",
+                  "SKIP Cave-Escort-Quest (A fine mess)"
+               ],
+               "type": "hub"
+            },
+            {
+               "coords": { "x": 53, "y": 35 },
+               "align": "top",
+               "header": "gates of ironforge",
+               "special": ["Hearth back to Ironforge"],
+               "type": "travel"
+            }
+         ]
+      },
+
+      {
+         "zone": "ironforge",
+         "experience": 29.85,
+         "waypoints": [
+            {
+               "coords": { "x": 19, "y": 51 },
+               "header": "ironforge inn",
+               "special": ["Train, Clear Bags, Repp."],
+               "type": "objective"
+            },
+            {
+               "coords": { "x": 68, "y": 48 },
+               "align": "top",
+               "header": "ironforge tinkertown",
+               "ends": [["save techbots brain", "d"], ["the grand betrayal", "d"], ["data rescue", "d"], ["essential artificials", "d"], ["gyrodrillmatic excavationators", "d"]],
+               "type": "hub"
+            },
+            {
+               "coords": { "x": 75, "y": 12 },
+               "align": "right",
+               "header": "Librarian Mae Paledust",
+               "starts": [["mythology of the titans", "d"]],
+               "special": ["Quest for Scarlet Monastery. We won't do 'In the name of light', cause it requires travelling to Desolace.'"],
+               "type": "quest"
+            },
+            {
+               "coords": { "x": 36, "y": 4 },
+               "header": "Talvash",
+               "completed": ["gnome improvement"],
+               "ends": ["return of the ring"],
+               "special": ["Followup might make sense, if you want the blue ring (+9 Stamina, +4 Spirit), costs 1 Silver Bar, 1 Moss Agate and some silver"],
+               "type": "hub"
+            },
+            {
+               "coords": { "x": 56, "y": 48 },
+               "align": "right",
+               "header": "ironforge flightpath",
+               "special": ["Fly to Wetlands"],
+               "type": "flightpath"
+            }
+         ]
+      },
+      {
+         "zone": "wetlands",
+         "experience": 30.1,
+         "waypoints": [
+            {
+               "coords": { "x": 9, "y": 60 },
+               "align": "top",
+               "header": "menethil flightpath",
+               "starts": ["fall of dun modr"],
+               "special": [
+                  ["Group Splits in Warriors and Non-Warriors."]
+               ],
+               "type": "flightpath"
+            },
+            {
+               "coords": { "x": 9, "y": 60 },
+               "align": "left",
+               "header": "Warriors",
+               "special": [
+                  "Take southern Boat to Theramore to complete the stance quest. Loc 69, 49 (Barrens, near Ratchet)",
+                  "Buy 3 Soothing Spices beforehand to complete Jarl Quest (Theramore) on the way. Skip Followup."
+               ],
+               "completed": ["soothing spices", "the affray"],
+               "type": "travel"
+            },
+            {
+               "coords": { "x": 9, "y": 60 },
+               "align": "right",
+               "header": "Non-Warriors",
+               "special": [
+                  ["Do Raptors or Cursed Crew till the Warriors are back"]
+               ],
+               "completed": ["the third fleet", "the cursed crew", "lifting the curse", "the eye of paleth", "uncovering the past", ["Ormer's Revenge", "p1"], ["Ormer's Revenge", "p2"], ["Ormer's Revenge", "p3"]],
+               "type": "quest"
+            },
+            {
+               "coords": { "x": 50, "y": 18 },
+               "align": "top",
+               "header": "dun modr",
+               "ends": ["fall of dun modr"],
+               "starts": [["the thandol span", "p1"], ["a grim task", "e"], ["the dark iron war", "e"]],
+               "type": "quest"
+            }
+         ]
+      },
+      {
+         "zone": "wetlands",
+         "experience": 30.3,
+         "waypoints": [
+            {
+               "coords": { "x": 50, "y": 18 },
+               "align": "bottom",
+               "header": "dun modr",
+               "ends": ["fall of dun modr"],
+               "starts": [["the thandol span", "p1"], ["a grim task", "e"], ["the dark iron war", "e"]],
+               "type": "quest"
+            },
+            {
+               "coords": { "x": 47, "y": 16 },
+               "header": "dun modr fortress",
+               "objectives": [["the dark iron war", "e"]],
+               "type": "objective"
+            },
+            {
+               "coords": { "x": 51, "y": 8 },
+               "align": "top",
+               "header": "rustlocke's corpse",
+               "ends": [["the thandol span", "p1"]],
+               "starts": [["the thandol span", "p2"]],
+               "objectives": [["the dark iron war", "e"]],
+               "type": "objective"
+            },
+            {
+               "coords": { "x": 62, "y": 27 },
+               "align": "right",
+               "header": "direforge hill",
+               "objectives": [["the dark iron war", "e"], ["a grim task", "e"]],
+               "type": "objective"
+            }
+         ]
+      },
+      {
+         "zone": "wetlands",
+         "experience": 30.35,
+         "waypoints": [
+            {
+               "coords": { "x": 62, "y": 27 },
+               "align": "bottom",
+               "header": "direforge hill",
+               "objectives": [["the dark iron war", "e"], ["a grim task", "e"]],
+               "type": "objective"
+            },
+            {
+               "coords": { "x": 50, "y": 18 },
+               "header": "dun modr",
+               "ends": [["the thandol span", "p2"], ["a grim task", "e"], ["the dark iron war", "e"]],
+               "starts": [["the thandol span", "p3"]],
+               "type": "quest"
+            },
+            {
+               "coords": { "x": 51, "y": 9 },
+               "header": "arathi highlands border",
+               "type": "travel"
+            }
+         ]
+      },
+      {
+         "zone": "arathi",
+         "experience": 30.36,
+         "waypoints": [
+            {
+               "coords": { "x": 49, "y": 88 },
+               "align": "top",
+               "header": "cache of explosives",
+               "objectives": [["the thandol span", "p3"]],
+               "type": "objective"
+            },
+            {
+               "coords": { "x": 45, "y": 93 },
+               "header": "wetlands border",
+               "type": "travel"
+            }
+         ]
+      },
+      {
+         "zone": "wetlands",
+         "experience": 30.37,
+         "waypoints": [
+            {
+               "coords": { "x": 50, "y": 18 },
+               "header": "dun modr",
+               "ends": [["the thandol span", "p3"]],
+               "starts": ["plea to the alliance"],
+               "type": "quest"
+            },
+            {
+               "coords": { "x": 49, "y": 8 },
+               "header": "thandol span",
+               "starts": ["sully balloo's letter"],
+               "special": ["use your swiftness potion and jump", "the letter is underwater", "drown in arathi highlands"],
+               "type": "quest"
+            }
+         ]
+      },
+      {
+         "zone": "arathi",
+         "experience": 30.38,
+         "waypoints": [
+            {
+               "coords": { "x": 49, "y": 56 },
+               "align": "right",
+               "header": "arathi spirit healer",
+               "special": ["take resurrection sickness"],
+               "type": "travel"
+            },
+            {
+               "coords": { "x": 46, "y": 48 },
+               "align": "right",
+               "header": "captain nials",
+               "ends": ["plea to the alliance"],
+               "type": "quest"
+            },
+            {
+               "coords": { "x": 46, "y": 46 },
+               "align": "top",
+               "header": "arathi highlands flightpath",
+               "special": ["learn the flightpath"],
+               "type": "flightpath"
+            },
+            {
+               "coords": { "x": 20, "y": 30 },
+               "align": "top",
+               "header": "hillsbrad foothills border",
+               "special": ["Head to Southshore"],
+               "type": "travel"
+            }
+         ]
+      },
+      {
+         "zone": "hillsbrad",
+         "experience": 30.4,
+         "waypoints": [
+            {
+               "coords": { "x": 48, "y": 51 },
+               "header": "southshore flightpath",
+               "special": ["learn the flightpath"],
+               "type": "flightpath"
+            },
+            {
+               "coords": { "x": 50, "y": 54 },
+               "align": "bottom",
+               "header": "southshore",
+               "starts": ["syndicate assassins", "costly menace"],
+               "type": "quest"
+            },
+            {
+               "coords": { "x": 51, "y": 20 },
+               "align": "bottom",
+               "header": "corrahn's dagger",
+               "starts": ["foreboding plans", "encrypted letter"],
+               "objectives": ["syndicate assassins"],
+               "type": "quest"
+            },
+            {
+               "coords": { "x": 47, "y": 17 },
+               "align": "top",
+               "header": "the headlands",
+               "objectives": ["costly menace"],
+               "type": "objective"
+            },
+            {
+               "coords": { "x": 43, "y": 25 },
+               "header": "the headlands",
+               "objectives": ["costly menace"],
+               "type": "objective"
+            }
+         ]
+      },
+      {
+         "zone": "wpl",
+         "experience": 55.82,
+         "waypoints": [
+            {
+               "coords": { "x": 43, "y": 87 },
+               "header": "western plaguelands flightpath",
+               "special": ["learn the flightpath"],
+               "type": "flightpath"
+            },
+            {
+               "coords": { "x": 26, "y": 53 },
+               "header": "the bulwark",
+               "special": ["Head to Scarlet Monastery. Avoid Andorhal!"],
+               "type": "travel"
+            },
+            {
+               "coords": { "x": 27, "y": 32 },
+               "header": "Scarlet Monastery",
+               "type": "travel"
+            }
+         ]
+      },
+      {
+         "zone": "tirisfal",
+         "experience": 40.65,
+         "waypoints": [
+            {
+               "coords": { "x": 84, "y": 72 },
+               "header": "the bulwark",
+               "type": "travel"
+            },
+            {
+               "coords": { "x": 84, "y": 32 },
+               "align": "right",
+               "header": "scarlet monastery Graveyard",
+               "special": ["Graveyard till all are Level 33 (Endboss might be skipped)"],
+               "type": "objective"
+            },
+            {
+               "coords": { "x": 84, "y": 32 },
+               "align": "right",
+               "header": "scarlet monastery library",
+               "objectives": [["mythology of the titans", "d"]],
+               "special": ["Library till all are Level 36 (All get the key)", "Hearth to Ironforge, train whirlwind, clear up bags, turn in Quests in "],
+               "type": "objective"
+            }
+         ]
+      },
+      {
+         "zone": "ironforge",
+         "experience": 42.1,
+         "waypoints": [
+            {
+               "coords": { "x": 19, "y": 51 },
+               "header": "ironforge inn",
+               "special": ["Train, Clear Bags, Repp.", "All players should obtain their Level 40 Mounts.", "Then meet again at Ironforge."],
+               "ends": [["mythology of the titans", "d"], "sully balloo's letter"],
+               "type": "objective"
+            },
+            {
+               "coords": { "x": 84, "y": 32 },
+               "align": "right",
+               "header": "Optional Badlands Quests",
+               "completed": ["ironband wants you", "find agmond", "murdaloc"],
+               "special": [["Rock Pulverizer", "https://classic.wowhead.com/item=4983/rock-pulverizer"], "Skip agmond's fate"],
+               "type": "objective"
+            },
+            {
+               "coords": { "x": 56, "y": 48 },
+               "align": "right",
+               "header": "ironforge flightpath",
+               "ends": ["foreboding plans", "encrypted letter", "syndicate assassins", "costly menace"],
+               "special": ["Fly to Southshore and turn in Quests and then head back to Scarlet Monastery via Chillwind Camp"],
+               "type": "flightpath"
+            }
+           
+         ]
+      },
+      {
+         "zone": "tirisfal",
+         "experience": 40.65,
+         "waypoints": [            
+            {
+               "coords": { "x": 84, "y": 32 },
+               "align": "left",
+               "header": "scarlet monastery Armory",
+               "special": ["Armory till all are Level 38"],
+               "type": "objective"
+            },
+            {
+               "coords": { "x": 84, "y": 32 },
+               "align": "right",
+               "header": "scarlet monastery Cathedral",
+               "special": ["Cathedral till all are Level 42 or longer if more gear is still needed", "Hearth to Ironforge"],
+               "type": "objective"
+            }
+         ]
+      },
+      {
+         "zone": "ironforge",
+         "experience": 42.1,
+         "waypoints": [
+            {
+               "coords": { "x": 19, "y": 51 },
+               "header": "ironforge inn",
+               "special": ["Train, Clear Bags, Repp.", "All players should obtain their Level 40 Mounts.", "Then meet again at Ironforge."],
+               "type": "hub"
+            },
+            {
+               "coords": { "x": 19, "y": 51 },
+               "header": "ironforge inn",
+               "starts": ["reclaimed treasures", "the lost dwarves"],
+               "special": ["Prepare for Uldaman. Skip other Quests (Long chains or collect quests outside the instance)"],
+               "type": "hub"
+            },
+            {
+               "coords": { "x": 56, "y": 48 },
+               "align": "right",
+               "header": "ironforge flightpath",
+               "special": ["Fly to Loch Modan and head south to Badlands (Uldaman)"],
+               "type": "flightpath"
+            }
+         ]
+      },
+      {
+         "zone": "badlands",
+         "experience": 42.78,
+         "waypoints": [
+            {
+               "coords": { "x": 49, "y": 8 },
+               "align": "right",
+               "header": "loch modan border",
+               "type": "travel"
+            },
+            {
+               "coords": { "x": 47, "y": 12 },
+               "align": "top",
+               "header": "uldaman outside",
+               "objectives": ["reclaimed treasures"],
+               "type": "quest"
+            },
+            {
+               "coords": { "x": 47, "y": 12 },
+               "header": "uldaman inside",
+               "ends": [["the lost dwarves", "d"]],
+               "objectives": [["the hidden chamber", "d"]],
+               "completed": [["the platinum discs", "d p1"]],
+               "starts": [["the platinum discs", "d p2"], ["the hidden chamber", "d"]],
+               "special": ["Hearth to Ironforge"],
+               "type": "quest"
+            }
          ]
       }
    ]
