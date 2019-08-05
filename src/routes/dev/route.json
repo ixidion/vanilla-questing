@@ -2567,7 +2567,7 @@
                "align": "bottom",
                "header": "morgan's vigil",
                "ends": [["the true masters", "p6"]],
-               "starts": [["marshal windsor", "d"], ["abandoned hope", "d"]],
+               "starts": [["marshal windsor", "d"]],
                "type": "hub"
             },
             {
@@ -2581,8 +2581,9 @@
             {
                "coords": { "x": 29, "y": 28 },
                "header": "blackrock depths",
-               "objectives": [["overmaster pyron", "d"], ["marshal windsor", "d"]],
-               "ends": [["dark iron legacy", "d p2"]],
+               "objectives": [["overmaster pyron", "d"], ["Ribbly Screwspigot", "d"]],
+               "ends": [["dark iron legacy", "d p2"], ["marshal windsor", "d"]],
+               "starts": [["abandoned hope", "d"]],
                "special": ["Do prison area till all hit Level 51."],
                "type": "objective"
             }
@@ -2651,7 +2652,8 @@
             {
                "coords": { "x": 66, "y": 22 },
                "align": "top",
-               "header": "flame crest - Maxwort Uberglint",
+               "header": "flame crest - Yuka Screwspigot, Maxwort Uberglint",
+               "ends": [["Ribbly Screwspigot", "d"]],
                "starts": [["The Heart of the Mountain", "d"]],
                "type": "hub"
             },
@@ -2737,8 +2739,15 @@
                "coords": { "x": 86, "y": 69 },
                "align": "right",
                "header": "morgan's vigil",
-               "ends": [],
+               "ends": [["the good stuff", "d"]],
                "starts": [],
+               "type": "hub"
+            },
+            {
+               "coords": { "x": 66, "y": 22 },
+               "align": "top",
+               "header": "flame crest - Maxwort Uberglint",
+               "ends": [["The Heart of the Mountain", "d"]],
                "type": "hub"
             },
             {
@@ -2831,7 +2840,7 @@
       },
       {
          "zone": "steppes",
-         "experience": 0.1,
+         "experience": 50.7,
          "waypoints": [
             {
                "coords": { "x": 86, "y": 69 },
@@ -2886,7 +2895,7 @@
 
       {
          "zone": "steppes",
-         "experience": 0.1,
+         "experience": 55.1,
          "waypoints": [
             {
                "coords": { "x": 86, "y": 69 },
@@ -2897,11 +2906,37 @@
                "type": "hub"
             },
             {
+               "coords": { "x": 95, "y": 32 },
+               "align": "top",
+               "header": "cyrus therepentous",
+               "ends": [["a taste of flame", "d p2"]],
+               "type": "quest"
+            },
+            {
                "coords": { "x": 29, "y": 28 },
                "header": "blackrock depths",
-               "objectives": [],
-               "special": ["Do xxx till all hit Level yy."],
+               "special": ["DECISION: At Level 53, it is possible to grind towards General Angerforge and the coffers, but Angerforge is pretty hard. Prison mobs will have fallen off an experience and anger Forge is a high-value target, because he has an immense axe damage upgrade for the Warriors. You should also consider targeting gear more than experience per hour now, as many items dropping in BRD are best in slot. I recommend not going for general anger Forge though until the group has grinded towards vale guard and the conference to level 55.",
+               "At 55 you can grind very deep into BRD and continue killing up to the bar or possibly beyond depending on how your group has been geared thus far until level 57.",
+               " ",
+               "At level 57 options are:",
+               "1. Do BRD Jump Runs, but Exp ist not that great. ",
+               "2. Get LBRS Quests and continue Leveling there. Obtain UBRS-Key.",
+               "3. Cauldron Quests & Others in Western Plague Lands (unlocks Level 60-Quests with BiS-Items).",
+               "4. Farm reputation for Hydraxian water Lords"],
                "type": "objective"
+            }
+         ]
+      },
+      {
+         "zone": "stormwind",
+         "experience": 60,
+         "waypoints": [
+            {
+               "coords": { "x": 66, "y": 62 },
+               "align": "bottom",
+               "header": "Well Done :-)",
+               "special": ["grats to Level 60"],
+               "type": "flightpath"
             }
          ]
       }
