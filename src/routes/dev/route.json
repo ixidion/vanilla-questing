@@ -10,8 +10,8 @@
                "header": "Leveling 1-12",
                "special": [
                   ["Follow Joanas Levelingguide till Level 12. Nightelves need to grind to 12 eventually.", "https://www.joanasworld.com/azeroth.htm"],
-                  ["Learn First Aid Profession."],
-                  ["One player in the group should learn Enchanting."]
+                  "All should learn First Aid Profession.",
+                  "One player in the group should learn Enchanting."
             ],
                "type": "quest"
             },
@@ -20,7 +20,7 @@
                "align": "bottom",
                "header": "Bronze Tube for Darkshire Quest",
                "special": [
-                  ["Obtain a Bronzetube for each player"],
+                  "Obtain a Bronzetube for each player till around the Mid 20 Levels. Vendors:",
                   ["- Stormwind - Dwarfen Quarter", "https://classic.wowhead.com/npc=5519"],
                   ["- Wetlands - Menethil", "https://classic.wowhead.com/npc=1448"],
                   ["- Wetlands - Loc 26.4, 25.8", "https://classic.wowhead.com/npc=2682"],
@@ -43,9 +43,9 @@
                "align": "bottom",
                "header": "Flightpaths",
                "special": [
-                  ["Human Players should get the following flightpoints in order Lakeshire, Westfall, Stormwind, Ironforge, Loch Modan, Wetlands and Auberdine."],
-                  ["Gnomes/Dwarves Players should get the following flightpoints in order Loch Modan, Ironforge, Wetlands and Auberdine."],
-                  ["Gnomes/Dwarves Players should get the following flightpoints in order Darnassus and Auberdine."]
+                  "Human Players should get the following flightpoints in order Lakeshire, Westfall, Stormwind, Ironforge, Loch Modan, Wetlands and Auberdine.",
+                  "Gnomes/Dwarves Players get the following flightpoints in order Loch Modan, Ironforge, Wetlands and Auberdine.",
+                  "Nightelve Players get the following flightpoints in order Darnassus and Auberdine."
             ],
                "type": "flightpath"
             },            {
@@ -53,8 +53,8 @@
                "align": "bottom",
                "header": "Train your Talents before heading to Auberdine.",
                "special": [
-                  ["All non nightelves: Get your talents at Level 12 in Ironforge."],
-                  ["Nightelves: Get your talents at Level 12 in Darnassus."]
+                  "All non nightelves: Train at Level 12 in Ironforge.",
+                  "Nightelves: Train at Level 12 in Darnassus."
             ],
                "type": "objective"
             },
@@ -63,7 +63,7 @@
                "align": "bottom",
                "header": "Arrive ALL at LVL 12 in Auberdine",
                "special": [
-                  ["Start questing here."]
+                  "Start questing here."
             ],
                "type": "travel"
             }
@@ -408,7 +408,7 @@
                "align": "bottom",
                "header": "buzzbox",
                "ends": ["buzzbox 323"],
-               "special": ["Skip buzzbox 525"],
+               "special": ["SKIP buzzbox 525"],
                "objectives": ["the cliffspring river"],
                "type": "quest"
             },
@@ -451,7 +451,7 @@
                "align": "top",
                "header": "bathule shadowstrike",
                "ends": [["the tower of althalaxx", "p2"]],
-               "special": [["Skip next Part"]],
+               "special": ["SKIP next Part"],
                "type": "quest"
             },
             {
@@ -535,8 +535,8 @@
                "coords": { "x": 9, "y": 60 },
                "header": "menethil flightpath",
                "special": [
-                  ["Nightelves learn the flightpath and focus on running to Ironforge via Thelsamar (get flightpaths here as well)."],
-                  ["The other players should coordinate and try to obtain the 5 Bronze Tubes from Wetland (2 Locs), Thelsamar, Ironforge and Dun Morogh. A short roundtrip Stormwind-Ironforge via Deeprun for the Bronzetube might be a good idea as well."]
+                  "Nightelves learn the flightpath and focus on running to Ironforge via Thelsamar (get flightpaths here as well).",
+                  "The other players should coordinate and try to obtain the 5 Bronze Tubes from Wetland (2 Locs), Thelsamar, Ironforge and Dun Morogh. A short roundtrip Stormwind-Ironforge via Deeprun for the Bronzetube might be a good idea as well."
                ],
                "type": "flightpath"
             }
@@ -558,7 +558,7 @@
                "align": "top",
                "header": "ironforge inn",
                "special": [
-                  ["Train at Ironforge."]
+                  "Train at Ironforge."
                ],
                "type": "travel"
             }
@@ -680,7 +680,7 @@
                "align": "top",
                "header": "Farstrider Lodge",
                "completed": ["A Hunter's Boast", "A Hunter's Challenge"],
-               "special": ["Do Timed Quests in the order above.", "Skip Quest Crocolisk Hunting"],
+               "special": ["Do Timed Quests in the order above.", "SKIP Quest Crocolisk Hunting"],
                "type": "hub"
             },
             {
@@ -862,8 +862,8 @@
             {
                "coords": { "x": 31, "y": 59 },
                "align": "right",
-               "header": "Group splits in Human and Non-Human",
-               "special": [["Hearthstone for all is on CD or near CD and bound to Lakeshire"], ["Final Destination for all is Westfall"]],
+               "header": "Group SPLITS in Human and Non-Human",
+               "special": ["Hearthstone for all is on CD or near CD and bound to Lakeshire", "Final Destination for all is Westfall"],
                "type": "flightpath"
             }
          ]
@@ -876,8 +876,14 @@
                "coords": { "x": 78, "y": 44 },
                "align": "right",
                "header": "Human Players - Get duskwood flightpath",
-               "special": ["fly to westfall"],
+               "special": ["get flightpath"],
                "type": "flightpath"
+            },
+            {
+               "coords": { "x": 6, "y": 63 },
+               "align": "bottom",
+               "header": "Fly to Westfall",
+               "type": "travel"
             }
          ]
       },
@@ -888,14 +894,14 @@
             {
                "coords": { "x": 66, "y": 62 },
                "align": "bottom",
-               "header": "stormwind flightpath",
+               "header": "Non-Human Players fly to Stormwind",
                "type": "flightpath"
             },
             {
                "coords": { "x": 70, "y": 87 },
                "align": "right",
                "header": "stormwind gates",
-               "special": [["Run to Westfall"]],
+               "special": ["Run to Westfall"],
                "type": "travel"
             }
          ]
@@ -906,7 +912,7 @@
          "waypoints": [
             {
                "coords": { "x": 57, "y": 47 },
-               "header": "sentinel tower",
+               "header": "All Meet at sentinel tower",
                "ends": [["the defias brotherhood", "p2"]],
                "starts": [["the defias brotherhood", "p3"]],
                "type": "hub"
@@ -1091,7 +1097,7 @@
                "align": "right",
                "header": "In the mountains",
                "objectives": ["wanted: lieutenant fangore", "solomon's law"],
-               "special": ["Hearth back to Lakeshire"],
+               "special": ["Hearth back to Lakeshire if on CD"],
                "type": "quest"
             },
             {
@@ -1127,6 +1133,7 @@
                "align": "right",
                "header": "Stonewatch Keep",
                "objectives": [["tharil'zun", "e"], ["shadow magic", "e"]],
+               "special": ["Hearth to Lakeshire if on CD"],
                "type": "quest"
             },
             {
@@ -1167,7 +1174,7 @@
                "align": "top",
                "header": "sentinel tower",
                "ends": [["the defias brotherhood", "p4"], ["messenger to westfall", "p1"]],
-               "special": ["Skip the followup of Messenger to Westfall", "Humans share the Killing Fields Quest"],
+               "special": ["SKIP the followup of Messenger to Westfall", "Humans share the Killing Fields Quest"],
                "starts": [["the defias brotherhood", "p5"], "the killing fields", "patrolling westfall"],
                "type": "hub"
             },
@@ -1217,7 +1224,7 @@
                "header": "captain grayson",
                "completed": ["keeper of the flame"],
                "starts": ["the coastal menace"],
-               "special": ["Skip the coast isn't clear"],
+               "special": ["SKIP the coast isn't clear"],
                "type": "quest"
             }
          ]
@@ -1232,7 +1239,7 @@
                "header": "captain grayson",
                "completed": ["keeper of the flame"],
                "starts": ["the coastal menace"],
-               "special": ["Skip the coast isn't clear"],
+               "special": ["SKIP the coast isn't clear"],
                "type": "quest"
             },
             {
@@ -1348,9 +1355,8 @@
                "coords": { "x": 55, "y": 12 },
                "align": "top",
                "header": "shoni the silent",
-               "starts": [["gyrodrillmatic excavationators", "d"]],
                "ends": [["underground assault", "d"]],
-               "special": ["Obtain Gnomereganquest for later"],
+               "special": ["SKIP Quest gyrodrillmatic excavationators"],
                "type": "quest"
             },
             {
@@ -1424,7 +1430,7 @@
                "coords": { "x": 66, "y": 62 },
                "align": "top",
                "header": "stormwind flightpath",
-               "special": ["Go to Trainer, then the Groups splits", "A Human player flies to Darkshire to obtain Dextren Ward-Quest.", "Another player gets the 'What comes around...'-Quest from Lakeshire.", "Share both to all other players."],
+               "special": ["Go to Trainer, then the Groups SPLITS", "A Human player goes to Darkshire to obtain Dextren Ward-Quest.", "Another player gets the 'What comes around...'-Quest from Lakeshire.", "Share both to all other players."],
                "starts": [["crime and punishment", "d"], ["what comes around...", "d"]],
                "type": "hub"
             },
@@ -1440,7 +1446,7 @@
                "coords": { "x": 41, "y": 56 },
                "header": "The Stockades (in front of the instance)",
                "ends": [["quell the uprising", "d"], ["the color of blood", "d"], ["the stockade riots", "d"]],
-               "special": ["Skip followup Quests"],
+               "special": ["SKIP followup Quests"],
                "type": "quest"
             },            
             {
@@ -1448,7 +1454,7 @@
                "align": "right",
                "header": "Turn in Stockade Quests",
                "ends": [["what comes around...", "d"]],
-               "special": ["Go to Trainer", "Fly to Lakeshire and turn in Quest.", "The walk/fly to Darkshire and turn in Quest."],
+               "special": ["Go to Trainer", "Fly to Lakeshire and turn in Quest.", "The walk/fly ALL to Darkshire and meet there.", "Last Chance for the Bronze Tube!"],
                "type": "quest"
             }
          ]
@@ -1496,7 +1502,7 @@
          "waypoints": [
             {
                "coords": { "x": 74, "y": 47 },
-               "align": "bottom",
+               "align": "top",
                "header": "darkshire",
                "ends": [["worgen in the woods", "p1"]],
                "starts": [["worgen in the woods", "p2"]],
@@ -1550,7 +1556,7 @@
                "align": "bottom",
                "header": "darkshire",
                "ends": [["look to the stars", "p3"], ["the night watch", "p1"], ["worgen in the woods", "p3"]],
-               "special": ["Skip Followup Quests.", "Grind or Quest up to level 29"],
+               "special": ["SKIP Followup Quests.", "Grind or Quest up to level 29 (can also be done before Gnomeregan)"],
                "type": "hub"
             }
 
@@ -1570,7 +1576,7 @@
                "coords": { "x": 68, "y": 48 },
                "align": "top",
                "header": "ironforge tinkertown",
-               "starts": [["save techbots brain", "d"], ["the grand betrayal", "d"], ["data rescue", "d"], ["essential artificials", "d"], ["gyrodrillmatic excavationators", "d"]],
+               "starts": [["save techbots brain", "d"], ["the grand betrayal", "d"], ["data rescue", "d"], ["essential artificials", "d"]],
                "type": "hub"
             }
  
@@ -1592,7 +1598,7 @@
                "align": "bottom",
                "header": "gnomeregan entrance (before instance)",
                "objectives": [["save techbots brain", "d"], ["data rescue", "d"]],
-               "special": ["Again. Wait for all!", "All obtain a white punch card from the entrance mobs.", "Obtain Yellow Punchard", "Grind here till all are at least Level 29.", "After turning in all Gnomereganquests all should be 30."],
+               "special": ["Again. Wait for all!", "All obtain a white punch card from the entrance mobs.", "Then Obtain Yellow Punchard outside the instance.", "Grind outside till all are at least Level 29.", "After turning in all Gnomereganquests all should be 30."],
                "type": "objective"
             },
             {
@@ -1601,17 +1607,18 @@
                "header": "gnomeregan (inside instance)",
                "completed": [["the sparklematic 5200", "d"], ["grime encrusted ring", "d"]],
                "starts": ["return of the ring"],
-               "objectives": [["the grand betrayal", "d"], ["data rescue", "d"], ["essential artificials", "d"], ["gyrodrillmatic excavationators", "d"]],
+               "objectives": [["the grand betrayal", "d"], ["data rescue", "d"], ["essential artificials", "d"]],
                "special": [
                   "No Jumprun, you need to obtain collectables for all within ONE run.", 
                   "Punch Card order: Yellow -> Blue (Clean Room) -> Red (Electrocutioner 6000) -> Prismatic (Pummeler)",
-                  "SKIP Cave-Escort-Quest (A fine mess)"
+                  "SKIP Cave-Escort-Quest (A fine mess)",
+                  "SKIP Quest gyrodrillmatic excavationators"
                ],
                "type": "hub"
             },
             {
                "coords": { "x": 53, "y": 35 },
-               "align": "top",
+               "align": "bottom",
                "header": "gates of ironforge",
                "special": ["Hearth back to Ironforge"],
                "type": "travel"
@@ -1633,7 +1640,7 @@
                "coords": { "x": 68, "y": 48 },
                "align": "top",
                "header": "ironforge tinkertown",
-               "ends": [["save techbots brain", "d"], ["the grand betrayal", "d"], ["data rescue", "d"], ["essential artificials", "d"], ["gyrodrillmatic excavationators", "d"]],
+               "ends": [["save techbots brain", "d"], ["the grand betrayal", "d"], ["data rescue", "d"], ["essential artificials", "d"]],
                "type": "hub"
             },
             {
@@ -1671,7 +1678,7 @@
                "header": "menethil flightpath",
                "starts": ["fall of dun modr"],
                "special": [
-                  ["Group Splits in Warriors and Non-Warriors."]
+                  "Group SPLITS in Warriors and Non-Warriors."
                ],
                "type": "flightpath"
             },
@@ -1681,7 +1688,7 @@
                "header": "Warriors",
                "special": [
                   "Take southern Boat to Theramore to complete the stance quest. Loc 69, 49 (Barrens, near Ratchet)",
-                  "Buy 3 Soothing Spices beforehand to complete Jarl Quest (Theramore) on the way. Skip Followup."
+                  "Buy 3 Soothing Spices beforehand to complete Jarl Quest (Theramore) on the way. SKIP Followup."
                ],
                "completed": ["soothing spices", "the affray"],
                "type": "travel"
@@ -1691,7 +1698,7 @@
                "align": "right",
                "header": "Non-Warriors",
                "special": [
-                  ["Do Raptors or Cursed Crew till the Warriors are back"]
+                  "Do Raptors or Cursed Crew till the Warriors are back"
                ],
                "completed": ["the third fleet", "the cursed crew", "lifting the curse", "the eye of paleth", "uncovering the past", ["Ormer's Revenge", "p1"], ["Ormer's Revenge", "p2"], ["Ormer's Revenge", "p3"]],
                "type": "quest"
@@ -1701,7 +1708,7 @@
                "align": "top",
                "header": "dun modr",
                "ends": ["fall of dun modr"],
-               "starts": [["the thandol span", "p1"], ["a grim task", "e"], ["the dark iron war", "e"]],
+               "starts": [["the thandol span", "e p1"], ["a grim task", "e"], ["the dark iron war", "e"]],
                "type": "quest"
             }
          ]
@@ -1715,7 +1722,7 @@
                "align": "bottom",
                "header": "dun modr",
                "ends": ["fall of dun modr"],
-               "starts": [["the thandol span", "p1"], ["a grim task", "e"], ["the dark iron war", "e"]],
+               "starts": [["the thandol span", "e p1"], ["a grim task", "e"], ["the dark iron war", "e"]],
                "type": "quest"
             },
             {
@@ -1728,8 +1735,8 @@
                "coords": { "x": 51, "y": 8 },
                "align": "top",
                "header": "rustlocke's corpse",
-               "ends": [["the thandol span", "p1"]],
-               "starts": [["the thandol span", "p2"]],
+               "ends": [["the thandol span", "e p1"]],
+               "starts": [["the thandol span", "e p2"]],
                "objectives": [["the dark iron war", "e"]],
                "type": "objective"
             },
@@ -1756,8 +1763,8 @@
             {
                "coords": { "x": 50, "y": 18 },
                "header": "dun modr",
-               "ends": [["the thandol span", "p2"], ["a grim task", "e"], ["the dark iron war", "e"]],
-               "starts": [["the thandol span", "p3"]],
+               "ends": [["the thandol span", "e p2"], ["a grim task", "e"], ["the dark iron war", "e"]],
+               "starts": [["the thandol span", "e p3"]],
                "type": "quest"
             },
             {
@@ -1775,7 +1782,7 @@
                "coords": { "x": 49, "y": 88 },
                "align": "top",
                "header": "cache of explosives",
-               "objectives": [["the thandol span", "p3"]],
+               "objectives": [["the thandol span", "e p3"]],
                "type": "objective"
             },
             {
@@ -1792,15 +1799,15 @@
             {
                "coords": { "x": 50, "y": 18 },
                "header": "dun modr",
-               "ends": [["the thandol span", "p3"]],
-               "starts": ["plea to the alliance"],
+               "ends": [["the thandol span", "e p3"]],
+               "starts": [["plea to the alliance", "e"]],
                "type": "quest"
             },
             {
                "coords": { "x": 49, "y": 8 },
                "header": "thandol span",
                "starts": ["sully balloo's letter"],
-               "special": ["use your swiftness potion and jump", "the letter is underwater", "drown in arathi highlands"],
+               "special": ["44,93 Arathi Highlands map . Jump from the bridge into the water, and find the letter in the sand, near a dead body. Right click on the letter, accept the quest", "the letter is underwater", "drown in arathi highlands"],
                "type": "quest"
             }
          ]
@@ -1844,6 +1851,11 @@
          "experience": 30.4,
          "waypoints": [
             {
+               "coords": { "x": 84, "y": 55 },
+               "header": "Border to Arathi Higlands",
+               "type": "travel"
+            },
+            {
                "coords": { "x": 48, "y": 51 },
                "header": "southshore flightpath",
                "special": ["learn the flightpath"],
@@ -1876,12 +1888,18 @@
                "header": "the headlands",
                "objectives": ["costly menace"],
                "type": "objective"
+            },
+            {
+               "coords": { "x": 56, "y": 2 },
+               "header": "Travel to Chillwind Camp (Western Plaguelands)",
+               "type": "travel"
             }
+            
          ]
       },
       {
          "zone": "wpl",
-         "experience": 55.82,
+         "experience": 30.4,
          "waypoints": [
             {
                "coords": { "x": 43, "y": 87 },
@@ -1904,7 +1922,7 @@
       },
       {
          "zone": "tirisfal",
-         "experience": 40.65,
+         "experience": 30.4,
          "waypoints": [
             {
                "coords": { "x": 84, "y": 72 },
@@ -1930,7 +1948,7 @@
       },
       {
          "zone": "ironforge",
-         "experience": 42.1,
+         "experience": 36.1,
          "waypoints": [
             {
                "coords": { "x": 19, "y": 51 },
@@ -1942,26 +1960,60 @@
             {
                "coords": { "x": 84, "y": 32 },
                "align": "right",
-               "header": "Optional Badlands Quests",
+               "header": "Optional Badlands Quests for Warrior Weapon",
                "completed": ["ironband wants you", "find agmond", "murdaloc"],
-               "special": [["Rock Pulverizer", "https://classic.wowhead.com/item=4983/rock-pulverizer"], "Skip agmond's fate"],
+               "special": [["Rock Pulverizer", "https://classic.wowhead.com/item=4983/rock-pulverizer"], "SKIP agmond's fate"],
                "type": "objective"
             },
             {
                "coords": { "x": 56, "y": 48 },
                "align": "right",
                "header": "ironforge flightpath",
-               "ends": ["foreboding plans", "encrypted letter", "syndicate assassins", "costly menace"],
-               "special": ["Fly to Southshore and turn in Quests and then head back to Scarlet Monastery via Chillwind Camp"],
+               "special": ["Fly to Southshore."],
                "type": "flightpath"
             }
            
          ]
       },
       {
+         "zone": "hillsbrad",
+         "experience": 30.4,
+         "waypoints": [
+            {
+               "coords": { "x": 48, "y": 51 },
+               "header": "southshore flightpath",
+               "type": "flightpath"
+            },
+            {
+               "coords": { "x": 50, "y": 54 },
+               "align": "bottom",
+               "header": "southshore",
+               "ends": ["syndicate assassins", "costly menace", "foreboding plans", "encrypted letter"],
+               "type": "quest"
+            },
+            {
+               "coords": { "x": 48, "y": 51 },
+               "align": "bottom",
+               "header": "southshore flightpath",
+               "type": "flightpath"
+            },
+            {
+               "coords": { "x": 56, "y": 2 },
+               "header": "Fly to Chillwind Camp (Western Plaguelands)",
+               "type": "travel"
+            }
+            
+         ]
+      },
+      {
          "zone": "tirisfal",
          "experience": 40.65,
-         "waypoints": [            
+         "waypoints": [ 
+            {
+               "coords": { "x": 84, "y": 72 },
+               "header": "the bulwark",
+               "type": "travel"
+            },           
             {
                "coords": { "x": 84, "y": 32 },
                "align": "left",
@@ -1989,11 +2041,11 @@
                "type": "hub"
             },
             {
-               "coords": { "x": 19, "y": 51 },
-               "header": "ironforge inn",
+               "coords": { "x": 74, "y": 10 },
+               "header": "hall of explorers",
                "starts": ["reclaimed treasures", "the lost dwarves"],
-               "special": ["Prepare for Uldaman. Skip other Quests (Long chains or collect quests outside the instance)"],
-               "type": "hub"
+               "special": ["Prepare for Uldaman. SKIP other Quests (Long chains or collect quests outside the instance)"],
+               "type": "quest"
             },
             {
                "coords": { "x": 56, "y": 48 },
@@ -2006,7 +2058,7 @@
       },
       {
          "zone": "badlands",
-         "experience": 42.78,
+         "experience": 42.5,
          "waypoints": [
             {
                "coords": { "x": 49, "y": 8 },
@@ -2030,6 +2082,826 @@
                "starts": [["the platinum discs", "d p2"], ["the hidden chamber", "d"]],
                "special": ["Hearth to Ironforge"],
                "type": "quest"
+            }
+         ]
+      },
+      {
+         "zone": "ironforge",
+         "experience": 42.8,
+         "waypoints": [
+            {
+               "coords": { "x": 19, "y": 51 },
+               "header": "ironforge inn",
+               "special": ["Train, Clear Bags, Repp."],
+               "type": "hub"
+            },
+            {
+               "coords": { "x": 27, "y": 8 },
+               "header": "bink",
+               "starts": ["tabetha's task"],
+               "type": "quest"
+            },
+            {
+               "coords": { "x": 74, "y": 10 },
+               "header": "hall of explorers",
+               "ends": [["the platinum discs", "d p2"], ["the hidden chamber", "d"], "reclaimed treasures"],
+               "type": "quest"
+            },
+            {
+               "coords": { "x": 70, "y": 87 },
+               "header": "military ward",
+               "starts": ["the brassbolts brothers"],
+               "type": "quest"
+            },
+            {
+               "coords": { "x": 56, "y": 48 },
+               "align": "right",
+               "header": "ironforge flightpath",
+               "special": ["Fly to Wetlands and then take Boat to Dustwallow."],
+               "type": "flightpath"
+            }
+         ]
+      },
+      {
+         "zone": "dustwallow",
+         "experience": 42.81,
+         "waypoints": [
+            {
+               "coords": { "x": 67, "y": 51 },
+               "align": "top",
+               "header": "theramore flightpath",
+               "type": "flightpath"
+            },
+            {
+               "coords": { "x": 46, "y": 57 },
+               "align": "top",
+               "header": "tabetha",
+               "ends": ["tabetha's task"],
+               "starts": [["tiara of the deep", "d"]],
+               "special": ["Travel to Shimmering Flats."],
+               "type": "quest"
+            }
+         ]
+      },      
+      {
+         "zone": "needles",
+         "experience": 42.32,
+         "waypoints": [
+            {
+               "coords": { "x": 32, "y": 21 },
+               "align": "top",
+               "header": "thousand needles lifts",
+               "special": ["Get Flightpath in Feralas."],
+               "type": "travel"
+            },
+            {
+               "coords": { "x": 5, "y": 18 },
+               "align": "top",
+               "header": "New Thalanaar",
+               "special": ["Get Flightpath in Feralas."],
+               "type": "flightpath"
+            },
+            {
+               "coords": { "x": 79, "y": 77 },
+               "align": "right",
+               "header": "the shimmering flats",
+               "ends": ["the brassbolts brothers"],
+               "starts": [["gahz'rilla", "d"]],
+               "special": ["I suggest to go the extra mile for gahz'rilla Quest for Carrot on the Stick"],
+               "type": "hub"
+            },
+            {
+               "coords": { "x": 75, "y": 95 },
+               "align": "right",
+               "header": "To Tanaris",
+               "type": "travel"
+            }
+         ]
+      },
+      {
+         "zone": "tanaris",
+         "experience": 42.33,
+         "waypoints": [
+            {
+               "coords": { "x": 51, "y": 22 },
+               "header": "thousand needles border",
+               "type": "travel"
+            },
+            {
+               "coords": { "x": 52, "y": 28 },
+               "align": "right",
+               "header": "gadgetzan",
+               "ends": [],
+               "starts": [["troll temper", "d"], ["scarab shells"], ["divino-matic rod", "d"]],
+               "special": ["set hearthstone", "Don't do ZF Quests: Nekrum's Medallion"],
+               "type": "quest"
+            },
+            {
+               "coords": { "x": 67, "y": 23 },
+               "align": "top",
+               "header": "steamwheedle port",
+               "ends": ["stoley's debt"],
+               "starts": ["screecher spirits"],
+               "type": "quest"
+            },
+            {
+               "coords": { "x": 50, "y": 30 },
+               "header": "tanaris flightpath",
+               "special": ["Get Flightpath", "Fly to Feralas"],
+               "type": "flightpath"
+            }
+         ]
+      },
+      {
+         "zone": "feralas",
+         "experience": 42.50,
+         "waypoints": [
+            {
+               "coords": { "x": 89, "y": 46 },
+               "align": "top",
+               "header": "thalanaar flightpath",
+               "type": "flightpath"
+            },
+            {
+               "coords": { "x": 46, "y": 48 },
+               "header": "the forgotten coast",
+               "objectives": ["screecher spirits"],
+               "special": ["Hearth back to Gadgetzan"],
+               "type": "objective"
+            }
+         ]
+      },
+      {
+         "zone": "tanaris",
+         "experience": 42.6,
+         "waypoints": [
+            {
+               "coords": { "x": 51, "y": 29 },
+               "header": "tanaris flightpath",
+               "special": ["Do Pirate and Wastewander Quests if still not 43."],
+               "type": "flightpath"
+            },
+            {
+               "coords": { "x": 67, "y": 23 },
+               "align": "right",
+               "header": "steamwheedle port",
+               "ends": ["screecher spirits"],
+               "starts": [["the prophecy of mosh'aru", "d"]],
+               "special": ["Do Pirate and Wastewander Quests if still not 43."],
+               "type": "quest"
+            }
+         ]
+      },
+      {
+         "zone": "tanaris",
+         "experience": 42.33,
+         "waypoints": [
+            {
+               "coords": { "x": 52, "y": 28 },
+               "align": "top",
+               "header": "gadgetzan",
+               "ends": [],
+               "type": "quest"
+            },
+            {
+               "coords": { "x": 39, "y": 20 },
+               "header": "zul'farrak",
+               "objectives": [["divino-matic rod", "d"], ["troll temper", "d"], ["scarab shells", "d"], ["gahz'rilla", "d"], ["tiara of the deep", "d"]],
+               "special": ["Do the early mobs until Level 44/45, then reset the ini and start again. Then grind till Level 47.", "Tired of Grinding: Do Tanaris-Quests like Gadgetzan Water Survey, Insect Part Analysis, Dun Maul, Thistle Shrub Valley, Thirsty Goblin and/or Platinum Discs. Un'goro: Raptor Quests."],
+               "type": "quest"
+            },
+            {
+               "coords": { "x": 52, "y": 28 },
+               "align": "right",
+               "header": "gadgetzan",
+               "ends": [["divino-matic rod", "d"], ["troll temper", "d"], ["scarab shells", "d"]],
+               "type": "quest"
+            },
+            {
+               "coords": { "x": 67, "y": 23 },
+               "align": "right",
+               "header": "steamwheedle port",
+               "ends": [["the prophecy of mosh'aru", "d"]],
+               "starts": [["the ancient egg", "e"]],
+               "type": "quest"
+            },
+            {
+               "coords": { "x": 50, "y": 30 },
+               "align": "right",
+               "header": "Tabetha at Theramore (if hearthstone is on/near CD)",
+               "ends": [["tiara of the deep", "d"]],
+               "special": ["Travel to Tabetha in Dustwallow and turn in.", "Hearth back to Gadgetzan."],
+               "type": "quest"
+            }
+         ]
+      },
+      {
+         "zone": "hinterlands",
+         "experience": 47.1,
+         "waypoints": [
+            {
+               "coords": { "x": 6, "y": 62 },
+               "header": "hillsbrad foothills border",
+               "special": ["If needed make a stop at Ironforge to visit the trainer."],
+               "type": "travel"
+            },
+            {
+               "coords": { "x": 11, "y": 46 },
+               "align": "top",
+               "header": "hinterlands flightpath",
+               "special": ["learn the flightpath"],
+               "type": "flightpath"
+            },
+            {
+               "coords": { "x": 66, "y": 65 },
+               "align": "right",
+               "header": "jintha'alor enterance",
+               "type": "objective"
+            },
+            {
+               "coords": { "x": 60, "y": 78 },
+               "align": "right",
+               "header": "jintha'alor altar",
+               "special": ["forge your mallet on the altar"],
+               "type": "objective"
+            },
+            {
+               "coords": { "x": 58, "y": 87 },
+               "align": "bottom",
+               "header": "ancient egg",
+               "objectives": [["the ancient egg", "e"]],
+               "special": ["Hearth back to Gadgetzan."],
+               "type": "objective"
+            }
+         ]
+      },
+      {
+         "zone": "tanaris",
+         "experience": 47.73,
+         "waypoints": [
+            {
+               "coords": { "x": 52, "y": 28 },
+               "align": "top",
+               "header": "gadgetzan",
+               "ends": [],
+               "type": "quest"
+            },
+            {
+               "coords": { "x": 67, "y": 23 },
+               "align": "right",
+               "header": "steamwheedle port",
+               "ends": [["the ancient egg", "e"]],
+               "starts": ["yuka screwspigot"],
+               "type": "quest"
+            },
+            {
+               "coords": { "x": 39, "y": 20 },
+               "header": "zul'farrak",
+               "objectives": [["gahz'rilla", "d"]],
+               "special": ["Grind till Level 48"],
+               "type": "quest"
+            },
+            {
+               "coords": { "x": 51, "y": 10 },
+               "header": "the shimmering flats",
+               "ends": [["gahz'rilla", "d"]],
+               "type": "quest"
+            },
+            {
+               "coords": { "x": 51, "y": 29 },
+               "header": "tanaris flightpath",
+               "special": ["Fly to Ironforge"],
+               "type": "flightpath"
+            }
+         ]
+      },
+      {
+         "zone": "ironforge",
+         "experience": 48.1,
+         "waypoints": [
+            {
+               "coords": { "x": 19, "y": 51 },
+               "header": "ironforge inn",
+               "special": ["Train, Clear Bags, Repp.", "set hearthstone"],
+               "type": "hub"
+            },
+            {
+               "coords": { "x": 56, "y": 48 },
+               "align": "right",
+               "header": "ironforge flightpath",
+               "special": ["Fly to Lakeshire and run to Morgan's Vigil in Burning Steppes"],
+               "type": "flightpath"
+            }
+         ]
+      },
+      {
+         "zone": "steppes",
+         "experience": 48.74,
+         "waypoints": [
+            {
+               "coords": { "x": 83, "y": 70 },
+               "header": "burning steppes flightpath",
+               "special": ["Get flightpath if available", "All next steps are ordered by minimum level. They can be done alos later during the BRD-Runs."],
+               "type": "flightpath"
+            },
+            {
+               "coords": { "x": 86, "y": 69 },
+               "align": "bottom",
+               "header": "morgan's vigil",
+               "starts": [["overmaster pyron", "e"], ["dragonkin menace"]],
+               "type": "hub"
+            },
+            {
+               "coords": { "x": 90, "y": 52 },
+               "align": "right",
+               "header": "terror wing path",
+               "objectives": [["dragonkin menace", "e"]],
+               "type": "objective"
+            },
+            {
+               "coords": { "x": 90, "y": 37 },
+               "align": "right",
+               "header": "terror wing path",
+               "objectives": [["dragonkin menace", "e"]],
+               "type": "objective"
+            },
+            {
+               "coords": { "x": 80, "y": 28 },
+               "align": "top",
+               "header": "terror wing path",
+               "objectives": [["dragonkin menace", "e"]],
+               "type": "objective"
+            },
+            {
+               "coords": { "x": 86, "y": 69 },
+               "align": "bottom",
+               "header": "morgan's vigil",
+               "starts": [["the true masters", "p1"]],
+               "ends": ["dragonkin menace"],
+               "type": "hub"
+            }
+         ]
+      },
+      {
+         "zone": "redridge",
+         "experience": 48.75,
+         "waypoints": [
+            {
+               "coords": { "x": 30, "y": 44 },
+               "align": "top",
+               "header": "magistrate solomon",
+               "ends": [["the true masters", "p1"]],
+               "starts": [["the true masters", "p2"]],
+               "type": "quest"
+            }
+         ]
+      },
+      {
+         "zone": "redridge",
+         "experience": 48.76,
+         "waypoints": [
+            {
+               "coords": { "x": 30, "y": 44 },
+               "header": "magistrate solomon",
+               "ends": [["the true masters", "p1"]],
+               "starts": [["the true masters", "p2"]],
+               "type": "quest"
+            },
+            {
+               "coords": { "x": 31, "y": 59 },
+               "header": "redridge flightpath",
+               "special": ["fly to stormwind"],
+               "type": "flightpath"
+            }
+         ]
+      },
+      {
+         "zone": "stormwind",
+         "experience": 48.77,
+         "waypoints": [
+            {
+               "coords": { "x": 66, "y": 62 },
+               "header": "stormwind flightpath",
+               "type": "flightpath"
+            },
+            {
+               "coords": { "x": 78, "y": 18 },
+               "align": "top",
+               "header": "highlord bolvar fordragon",
+               "ends": [["the true masters", "p2"]],
+               "starts": [["the true masters", "p4"]],
+               "completed": [["the true masters", "p3"]],
+               "type": "quest"
+            }
+         ]
+      },
+      {
+         "zone": "redridge",
+         "experience": 48.78,
+         "waypoints": [
+            {
+               "coords": { "x": 28, "y": 44 },
+               "align": "top",
+               "header": "lakeshire inn",
+               "type": "travel"
+            },
+            {
+               "coords": { "x": 30, "y": 44 },
+               "align": "top",
+               "header": "magistrate solomon",
+               "ends": [["the true masters", "p4"]],
+               "starts": [["the true masters", "p5"]],
+               "type": "quest"
+            },
+            {
+               "coords": { "x": 31, "y": 59 },
+               "align": "right",
+               "header": "redridge flightpath",
+               "special": ["fly to burning steppes"],
+               "type": "flightpath"
+            }
+         ]
+      },
+      {
+         "zone": "steppes",
+         "experience": 48.79,
+         "waypoints": [
+            {
+               "coords": { "x": 83, "y": 70 },
+               "align": "bottom",
+               "header": "burning steppes flightpath",
+               "type": "flightpath"
+            },
+            {
+               "coords": { "x": 86, "y": 70 },
+               "align": "bottom",
+               "header": "morgan's vigil",
+               "ends": [["the true masters", "p5"]],
+               "starts": [["the true masters", "p6"]],
+               "type": "hub"
+            },
+            {
+               "coords": { "x": 66, "y": 22 },
+               "align": "top",
+               "header": "flame crest",
+               "objectives": [["the true masters", "p6"]],
+               "type": "objective"
+            }
+         ]
+      },
+      {
+         "zone": "steppes",
+         "experience": 48.8,
+         "waypoints": [
+            {
+               "coords": { "x": 66, "y": 22 },
+               "align": "top",
+               "header": "flame crest",
+               "ends": ["yuka screwspigot"],
+               "starts": [["Ribbly Screwspigot", "d"]],
+               "objectives": [["the true masters", "p6"]],
+               "type": "objective"
+            },
+            {
+               "coords": { "x": 86, "y": 70 },
+               "align": "bottom",
+               "header": "morgan's vigil",
+               "ends": [["the true masters", "p6"]],
+               "starts": [["marshal windsor", "d"], ["abandoned hope", "d"]],
+               "type": "hub"
+            },
+            {
+               "coords": { "x": 29, "y": 28 },
+               "header": "blackrock depths - Franclorn Forgewright",
+               "completed": [["dark iron legacy", "d p1"]],
+               "starts": [["dark iron legacy", "d p2"]],
+               "special": ["If you are dead, grab quest Dark Iron Legacy before BRD at the chains. Needed for Shadowforge Key."],
+               "type": "objective"
+            },
+            {
+               "coords": { "x": 29, "y": 28 },
+               "header": "blackrock depths",
+               "objectives": [["overmaster pyron", "d"], ["marshal windsor", "d"]],
+               "ends": [["dark iron legacy", "d p2"]],
+               "special": ["Do prison area till all hit Level 51."],
+               "type": "objective"
+            }
+         ]
+      },      
+      {
+         "zone": "steppes",
+         "experience": 49.1,
+         "waypoints": [
+            {
+               "coords": { "x": 86, "y": 69 },
+               "align": "right",
+               "header": "morgan's vigil",
+               "ends": [["abandoned hope", "d"], ["overmaster pyron", "d"]],
+               "starts": [["incendius!", "d"]],
+               "type": "hub"
+            },
+            {
+               "coords": { "x": 29, "y": 28 },
+               "header": "blackrock depths",
+               "objectives": [["incendius!", "d"]],
+               "special": ["Do prison area till all hit Level 51."],
+               "type": "objective"
+            }
+         ]
+      },
+      {
+         "zone": "ironforge",
+         "experience": 50.1,
+         "waypoints": [
+            {
+               "coords": { "x": 19, "y": 51 },
+               "header": "ironforge inn",
+               "special": ["Train, Clear Bags, Repp."],
+               "type": "hub"
+            },
+            {
+               "coords": { "x": 39, "y": 55 },
+               "header": "royal historian archesonus",
+               "completed": [["the smoldering ruins of thaurissan", "p1"]],
+               "starts": [["the smoldering ruins of thaurissan", "p2"]],
+               "special": ["Can be obtained with Level 50."],
+               "type": "quest"
+            },
+            {
+               "coords": { "x": 56, "y": 48 },
+               "align": "right",
+               "header": "ironforge flightpath",
+               "special": ["Fly to Morgan's Vigil in Burning Steppes"],
+               "type": "flightpath"
+            }
+         ]
+      },
+      {
+         "zone": "steppes",
+         "experience": 50.22,
+         "waypoints": [
+            {
+               "coords": { "x": 86, "y": 69 },
+               "align": "right",
+               "header": "morgan's vigil",
+               "ends": [["incendius!", "d"]],
+               "starts": [["the good stuff", "d"]],
+               "type": "hub"
+            },
+            {
+               "coords": { "x": 66, "y": 22 },
+               "align": "top",
+               "header": "flame crest - Maxwort Uberglint",
+               "starts": [["The Heart of the Mountain", "d"]],
+               "type": "hub"
+            },
+            {
+               "coords": { "x": 66, "y": 39 },
+               "align": "bottom",
+               "header": "ruins of thaurissan",
+               "objectives": [["the smoldering ruins of thaurissan", "p2"]],
+               "type": "objective"
+            },
+            {
+               "coords": { "x": 59, "y": 42 },
+               "align": "bottom",
+               "header": "ruins of thaurissan",
+               "objectives": [["the smoldering ruins of thaurissan", "p2"]],
+               "type": "objective"
+            },
+            {
+               "coords": { "x": 29, "y": 28 },
+               "header": "blackrock depths",
+               "starts": [["A crumpled up note", "d"]],
+               "objectives": [["the good stuff", "d"], ["The Heart of the Mountain", "d"]],
+               "type": "objective"
+            },
+            {
+               "coords": { "x": 29, "y": 28 },
+               "header": "blackrock depths - Marshal Windsor",
+               "completed": [["A Shred of Hope", "d"]],
+               "ends": [["A crumpled up note", "d"]],
+               "starts": [["jail break!", "d"]],
+               "type": "objective"
+            },
+            {
+               "coords": { "x": 86, "y": 69 },
+               "align": "left",
+               "header": "morgan's vigil",
+               "ends": [["jail break!", "d"]],
+               "starts": ["Stormwind Rendezvous"],
+               "special": [["Guide for last steps of Onyxia Questchain.", "https://wowwiki.fandom.com/wiki/Onyxia%27s_Lair_attunement"]],
+               "type": "hub"
+            }
+         ]
+      },
+      {
+         "zone": "ironforge",
+         "experience": 50.3,
+         "waypoints": [
+            {
+               "coords": { "x": 19, "y": 51 },
+               "header": "ironforge inn",
+               "special": ["Train, Clear Bags, Repp."],
+               "type": "hub"
+            },
+            {
+               "coords": { "x": 39, "y": 55 },
+               "header": "royal historian archesonus",
+               "ends": [["the smoldering ruins of thaurissan", "p2"]],
+               "special": ["Opens kharan mighthammer"],
+               "type": "quest"
+            },
+            {
+               "coords": { "x": 39, "y": 56 },
+               "align": "top",
+               "header": "king magni bronzebeard",
+               "starts": [["kharan mighthammer", "d"]],
+               "type": "quest"
+            },
+            {
+               "coords": { "x": 56, "y": 48 },
+               "align": "right",
+               "header": "ironforge flightpath",
+               "special": ["Fly to Morgan's Vigil in Burning Steppes"],
+               "type": "flightpath"
+            }
+         ]
+      },
+
+      {
+         "zone": "steppes",
+         "experience": 50.4,
+         "waypoints": [
+            {
+               "coords": { "x": 86, "y": 69 },
+               "align": "right",
+               "header": "morgan's vigil",
+               "ends": [],
+               "starts": [],
+               "type": "hub"
+            },
+            {
+               "coords": { "x": 29, "y": 28 },
+               "header": "blackrock depths",
+               "ends": [["kharan mighthammer", "d"]],
+               "completed": [["kharan's tale", "d"]],
+               "starts": [["the bearer of bad news", "d"]],              
+               "objectives": [],
+               "type": "objective"
+            }
+         ]
+      },
+
+      {
+         "zone": "ironforge",
+         "experience": 50.45,
+         "waypoints": [
+            {
+               "coords": { "x": 19, "y": 51 },
+               "header": "ironforge inn",
+               "special": ["Train, Clear Bags, Repp."],
+               "type": "hub"
+            },
+            {
+               "coords": { "x": 39, "y": 56 },
+               "align": "top",
+               "header": "king magni bronzebeard",
+               "ends": [["the bearer of bad news", "d"]],
+               "starts": [["the fate of the kingdom", "d"]],
+               "type": "quest"
+            },
+            {
+               "coords": { "x": 56, "y": 48 },
+               "align": "right",
+               "header": "ironforge flightpath",
+               "special": ["Fly to Morgan's Vigil in Burning Steppes"],
+               "type": "flightpath"
+            }
+         ]
+      },
+
+      {
+         "zone": "steppes",
+         "experience": 50.5,
+         "waypoints": [
+            {
+               "coords": { "x": 86, "y": 69 },
+               "align": "right",
+               "header": "morgan's vigil",
+               "ends": [],
+               "starts": [],
+               "type": "hub"
+            },
+            {
+               "coords": { "x": 29, "y": 28 },
+               "header": "blackrock depths",
+               "ends": [["the fate of the kingdom", "d"]],
+               "starts": [["The Princess's Surprise", "d"]],  
+               "special": ["Kill Emperor, but let princess alive!"],
+               "type": "objective"
+            }
+         ]
+      },
+      {
+         "zone": "ironforge",
+         "experience": 50.6,
+         "waypoints": [
+            {
+               "coords": { "x": 19, "y": 51 },
+               "header": "ironforge inn",
+               "special": ["Train, Clear Bags, Repp."],
+               "type": "hub"
+            },
+            {
+               "coords": { "x": 39, "y": 56 },
+               "align": "top",
+               "header": "king magni bronzebeard",
+               "ends": [["The Princess's Surprise", "d"]],
+               "type": "quest"
+            },
+            {
+               "coords": { "x": 56, "y": 48 },
+               "align": "right",
+               "header": "ironforge flightpath",
+               "special": ["Fly to Morgan's Vigil in Burning Steppes"],
+               "type": "flightpath"
+            }
+         ]
+      },
+      {
+         "zone": "steppes",
+         "experience": 0.1,
+         "waypoints": [
+            {
+               "coords": { "x": 86, "y": 69 },
+               "align": "right",
+               "header": "morgan's vigil",
+               "ends": [],
+               "starts": [],
+               "type": "hub"
+            },
+            {
+               "coords": { "x": 29, "y": 28 },
+               "header": "blackrock depths",
+               "objectives": [],
+               "special": ["Do Bael'gar area till all hit Level 53. Drops 2-Hand Weapon Upgrade"],
+               "type": "objective"
+            }
+         ]
+      },
+
+      {
+         "zone": "steppes",
+         "experience": 52.14,
+         "waypoints": [
+            {
+               "coords": { "x": 83, "y": 70 },
+               "header": "burning steppes flightpath",
+               "type": "flightpath"
+            },
+            {
+               "coords": { "x": 86, "y": 69 },
+               "align": "bottom",
+               "header": "morgan's vigil",
+               "type": "hub"
+            },
+            {
+               "coords": { "x": 95, "y": 32 },
+               "align": "top",
+               "header": "cyrus therepentous",
+               "completed": [["a taste of flame", "p1"]],
+               "starts": [["a taste of flame", "d p2"]],
+               "special": ["kill the drake outside"],
+               "type": "quest"
+            },
+            {
+               "coords": { "x": 29, "y": 28 },
+               "header": "blackrock depths",
+               "objectives": [["a taste of flame", "d p2"]],
+               "type": "objective"
+            }
+         ]
+      },
+
+      {
+         "zone": "steppes",
+         "experience": 0.1,
+         "waypoints": [
+            {
+               "coords": { "x": 86, "y": 69 },
+               "align": "right",
+               "header": "morgan's vigil",
+               "ends": [],
+               "starts": [],
+               "type": "hub"
+            },
+            {
+               "coords": { "x": 29, "y": 28 },
+               "header": "blackrock depths",
+               "objectives": [],
+               "special": ["Do xxx till all hit Level yy."],
+               "type": "objective"
             }
          ]
       }
