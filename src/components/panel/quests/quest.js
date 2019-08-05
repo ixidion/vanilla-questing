@@ -30,7 +30,7 @@ function Quest({ quest, quests }) {
 
 // DEFAULT BLOCK
 function Single(props) { return (
-   <div><a href={ 'https://classicdb.ch/?quest=' + fetch_id(props) } target='_blank' rel='noopener noreferrer'>
+   <div><a href={ 'https://classic.wowhead.com/quest=' + fetch_id(props) } target='_blank' rel='noopener noreferrer'>
       { shorten(props.header) }
    </a></div>
 )}
@@ -38,7 +38,7 @@ function Single(props) { return (
 // MULTI HEADER BLOCK
 function Multi(props) { return (
    <div className="split">
-      <div><a href={ 'https://classicdb.ch/?quest=' + fetch_id(props) } target='_blank' rel='noopener noreferrer'>
+      <div><a href={ 'https://classic.wowhead.com/quest=' + fetch_id(props) } target='_blank' rel='noopener noreferrer'>
          { shorten(props.header) }
       </a></div>
       <div>{ props.tag }</div>

@@ -74,7 +74,7 @@ function Copy() {
    }
 
    return (
-      <CopyToClipboard text={ 'http://vanilla-questing.me/' + state.data.race + '/' + state.current } onCopy={ message }>
+      <CopyToClipboard text={ 'http://dungeon.bluemx.de/' + state.data.race + '/' + state.current } onCopy={ message }>
          <div id={ 'link' }>Link</div>
       </CopyToClipboard>
    )
