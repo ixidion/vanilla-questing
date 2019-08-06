@@ -56,7 +56,8 @@ function Init() {
             if (window.request === undefined) {
                dispatch({
                   type: 'load',
-                  payload: random()
+                  //payload: random()
+                  payload: specific({race: "nelf", block: "0"})
                })
 
             // OTHERWISE, PROCESS THE REQUEST & LOAD IT
